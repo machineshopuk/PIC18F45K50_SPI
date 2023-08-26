@@ -1,0 +1,1787 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F45K50 ]
+[d frameptr 4065 ]
+"20 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_SPI.X/main.c
+[e E5953 . `uc
+MASTER0 0
+]
+"73 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_SPI.X/mcc_generated_files/spi1.c
+[e E355 . `uc
+MASTER0_CONFIG 0
+SPI1_DEFAULT 1
+]
+"42 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_SPI.X/mcc_generated_files/drivers/spi_master.c
+[e E355 . `uc
+MASTER0_CONFIG 0
+SPI1_DEFAULT 1
+]
+"56
+[e E377 . `uc
+MASTER0 0
+]
+"90 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_SPI.X/mcc_generated_files/examples/spi_master_example.c
+[e E544 . `uc
+MASTER0 0
+]
+"424 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_SPI.X/mcc_generated_files/usb/usb_device_cdc.c
+[e E46 . `ui
+EVENT_NONE 0
+EVENT_DEVICE_STACK_BASE 1
+EVENT_HOST_STACK_BASE 100
+EVENT_HUB_ATTACH 101
+EVENT_STALL 102
+EVENT_VBUS_SES_REQUEST 103
+EVENT_VBUS_OVERCURRENT 104
+EVENT_VBUS_REQUEST_POWER 105
+EVENT_VBUS_RELEASE_POWER 106
+EVENT_VBUS_POWER_AVAILABLE 107
+EVENT_UNSUPPORTED_DEVICE 108
+EVENT_CANNOT_ENUMERATE 109
+EVENT_CLIENT_INIT_ERROR 110
+EVENT_OUT_OF_MEMORY 111
+EVENT_UNSPECIFIED_ERROR 112
+EVENT_DETACH 113
+EVENT_TRANSFER 114
+EVENT_SOF 115
+EVENT_RESUME 116
+EVENT_SUSPEND 117
+EVENT_RESET 118
+EVENT_DATA_ISOC_READ 119
+EVENT_DATA_ISOC_WRITE 120
+EVENT_OVERRIDE_CLIENT_DRIVER_SELECTION 121
+EVENT_1MS 122
+EVENT_ALT_INTERFACE 123
+EVENT_HOLD_BEFORE_CONFIGURATION 124
+EVENT_GENERIC_BASE 400
+EVENT_MSD_BASE 500
+EVENT_HID_BASE 600
+EVENT_PRINTER_BASE 700
+EVENT_CDC_BASE 800
+EVENT_CHARGER_BASE 900
+EVENT_AUDIO_BASE 1000
+EVENT_USER_BASE 10000
+EVENT_BUS_ERROR 32767
+]
+"442
+[e E306 . `uc
+EVENT_CONFIGURED 1
+EVENT_SET_DESCRIPTOR 2
+EVENT_EP0_REQUEST 3
+EVENT_ATTACH 4
+EVENT_TRANSFER_TERMINATED 5
+]
+"49 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_SPI.X/mcc_generated_files/usb/usb_device_events.c
+[e E46 . `ui
+EVENT_NONE 0
+EVENT_DEVICE_STACK_BASE 1
+EVENT_HOST_STACK_BASE 100
+EVENT_HUB_ATTACH 101
+EVENT_STALL 102
+EVENT_VBUS_SES_REQUEST 103
+EVENT_VBUS_OVERCURRENT 104
+EVENT_VBUS_REQUEST_POWER 105
+EVENT_VBUS_RELEASE_POWER 106
+EVENT_VBUS_POWER_AVAILABLE 107
+EVENT_UNSUPPORTED_DEVICE 108
+EVENT_CANNOT_ENUMERATE 109
+EVENT_CLIENT_INIT_ERROR 110
+EVENT_OUT_OF_MEMORY 111
+EVENT_UNSPECIFIED_ERROR 112
+EVENT_DETACH 113
+EVENT_TRANSFER 114
+EVENT_SOF 115
+EVENT_RESUME 116
+EVENT_SUSPEND 117
+EVENT_RESET 118
+EVENT_DATA_ISOC_READ 119
+EVENT_DATA_ISOC_WRITE 120
+EVENT_OVERRIDE_CLIENT_DRIVER_SELECTION 121
+EVENT_1MS 122
+EVENT_ALT_INTERFACE 123
+EVENT_HOLD_BEFORE_CONFIGURATION 124
+EVENT_GENERIC_BASE 400
+EVENT_MSD_BASE 500
+EVENT_HID_BASE 600
+EVENT_PRINTER_BASE 700
+EVENT_CDC_BASE 800
+EVENT_CHARGER_BASE 900
+EVENT_AUDIO_BASE 1000
+EVENT_USER_BASE 10000
+EVENT_BUS_ERROR 32767
+]
+"96
+[e E114 . `uc
+EVENT_CONFIGURED 1
+EVENT_SET_DESCRIPTOR 2
+EVENT_EP0_REQUEST 3
+EVENT_ATTACH 4
+EVENT_TRANSFER_TERMINATED 5
+]
+"39 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_SPI.X/mcc_generated_files/usb/example_mcc_usb_cdc.c
+[e E297 . `uc
+DETACHED_STATE 0
+ATTACHED_STATE 1
+POWERED_STATE 2
+DEFAULT_STATE 4
+ADR_PENDING_STATE 8
+ADDRESS_STATE 16
+CONFIGURED_STATE 32
+]
+"141 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_SPI.X/mcc_generated_files/usb/usb_device.c
+[e E5283 . `uc
+DETACHED_STATE 0
+ATTACHED_STATE 1
+POWERED_STATE 2
+DEFAULT_STATE 4
+ADR_PENDING_STATE 8
+ADDRESS_STATE 16
+CONFIGURED_STATE 32
+]
+"717
+[e E5032 . `ui
+EVENT_NONE 0
+EVENT_DEVICE_STACK_BASE 1
+EVENT_HOST_STACK_BASE 100
+EVENT_HUB_ATTACH 101
+EVENT_STALL 102
+EVENT_VBUS_SES_REQUEST 103
+EVENT_VBUS_OVERCURRENT 104
+EVENT_VBUS_REQUEST_POWER 105
+EVENT_VBUS_RELEASE_POWER 106
+EVENT_VBUS_POWER_AVAILABLE 107
+EVENT_UNSUPPORTED_DEVICE 108
+EVENT_CANNOT_ENUMERATE 109
+EVENT_CLIENT_INIT_ERROR 110
+EVENT_OUT_OF_MEMORY 111
+EVENT_UNSPECIFIED_ERROR 112
+EVENT_DETACH 113
+EVENT_TRANSFER 114
+EVENT_SOF 115
+EVENT_RESUME 116
+EVENT_SUSPEND 117
+EVENT_RESET 118
+EVENT_DATA_ISOC_READ 119
+EVENT_DATA_ISOC_WRITE 120
+EVENT_OVERRIDE_CLIENT_DRIVER_SELECTION 121
+EVENT_1MS 122
+EVENT_ALT_INTERFACE 123
+EVENT_HOLD_BEFORE_CONFIGURATION 124
+EVENT_GENERIC_BASE 400
+EVENT_MSD_BASE 500
+EVENT_HID_BASE 600
+EVENT_PRINTER_BASE 700
+EVENT_CDC_BASE 800
+EVENT_CHARGER_BASE 900
+EVENT_AUDIO_BASE 1000
+EVENT_USER_BASE 10000
+EVENT_BUS_ERROR 32767
+]
+"2021
+[e E5292 . `uc
+EVENT_CONFIGURED 1
+EVENT_SET_DESCRIPTOR 2
+EVENT_EP0_REQUEST 3
+EVENT_ATTACH 4
+EVENT_TRANSFER_TERMINATED 5
+]
+"4 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/__fpclassifyf.c
+[v ___fpclassifyf __fpclassifyf `(i  1 e 2 0 ]
+"7 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"7 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"72 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/doprnt.c
+[v _pad pad `(i  1 s 2 pad ]
+"332
+[v _efgtoa efgtoa `(i  1 s 2 efgtoa ]
+"692
+[v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
+"1390
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+"4 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"4 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"15 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/flneg.c
+[v ___flneg __flneg `(d  1 e 4 0 ]
+"62 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"3 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/floorf.c
+[v _floorf floorf `(f  1 e 4 0 ]
+"43 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"86 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"5 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/isupper.c
+[v _isupper isupper `(i  1 e 2 0 ]
+"4 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/memcpy.c
+[v _memcpy memcpy `(*.39v  1 e 2 0 ]
+"4 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/memset.c
+[v _memset memset `(*.39v  1 e 2 0 ]
+[v i2_memset memset `(*.39v  1 e 2 0 ]
+"8 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+"8 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+"9 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"7 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/putch.c
+[v _putch putch `(v  1 e 1 0 ]
+"10 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"3 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/strcpy.c
+[v _strcpy strcpy `(*.39uc  1 e 2 0 ]
+"5 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"3 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/strncmp.c
+[v _strncmp strncmp `(i  1 e 2 0 ]
+"4 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/tolower.c
+[v _tolower tolower `(i  1 e 2 0 ]
+"15 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"10 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"3 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_SPI.X/main.c
+[v _main main `(v  1 e 1 0 ]
+"41 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_SPI.X/mcc_generated_files/drivers/spi_master.c
+[v _MASTER0_open MASTER0_open `(a  1 e 1 0 ]
+"56
+[v _spi_master_open spi_master_open `(a  1 e 1 0 ]
+"62 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_SPI.X/mcc_generated_files/examples/spi_master_example.c
+[v _drive_slave_select_low drive_slave_select_low `(v  1 s 1 drive_slave_select_low ]
+"74
+[v _drive_slave_select_high drive_slave_select_high `(v  1 s 1 drive_slave_select_high ]
+"52 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_SPI.X/mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"58
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+"50 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_SPI.X/mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"61
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"55 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_SPI.X/mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"63 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_SPI.X/mcc_generated_files/spi1.c
+[v _SPI1_Initialize SPI1_Initialize `(v  1 e 1 0 ]
+"73
+[v _SPI1_Open SPI1_Open `(a  1 e 1 0 ]
+"88
+[v _SPI1_Close SPI1_Close `(v  1 e 1 0 ]
+"93
+[v _SPI1_ExchangeByte SPI1_ExchangeByte `(uc  1 e 1 0 ]
+"101
+[v _SPI1_ExchangeBlock SPI1_ExchangeBlock `(v  1 e 1 0 ]
+"114
+[v _SPI1_WriteBlock SPI1_WriteBlock `(v  1 e 1 0 ]
+"123
+[v _SPI1_ReadBlock SPI1_ReadBlock `(v  1 e 1 0 ]
+"132
+[v _SPI1_WriteByte SPI1_WriteByte `(v  1 e 1 0 ]
+"137
+[v _SPI1_ReadByte SPI1_ReadByte `(uc  1 e 1 0 ]
+"281 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_SPI.X/mcc_generated_files/usb/usb_device.c
+[v _USBDeviceInit USBDeviceInit `(v  1 e 1 0 ]
+[v i2_USBDeviceInit USBDeviceInit `(v  1 e 1 0 ]
+"481
+[v _USBDeviceTasks USBDeviceTasks `(v  1 e 1 0 ]
+"882
+[v _USBEnableEndpoint USBEnableEndpoint `(v  1 e 1 0 ]
+"999
+[v _USBTransferOnePacket USBTransferOnePacket `(*.39v  1 e 2 0 ]
+[v i2_USBTransferOnePacket USBTransferOnePacket `(*.39v  1 e 2 0 ]
+"1356
+[v _USBDeviceAttach USBDeviceAttach `(v  1 e 1 0 ]
+"1420
+[v _USBCtrlEPAllowStatusStage USBCtrlEPAllowStatusStage `(v  1 e 1 0 ]
+"1492
+[v _USBCtrlEPAllowDataStage USBCtrlEPAllowDataStage `(v  1 e 1 0 ]
+"1547
+[v _USBConfigureEndpoint USBConfigureEndpoint `(v  1 s 1 USBConfigureEndpoint ]
+"1620
+[v _USBCtrlEPServiceComplete USBCtrlEPServiceComplete `(v  1 s 1 USBCtrlEPServiceComplete ]
+"1775
+[v _USBCtrlTrfTxService USBCtrlTrfTxService `(v  1 s 1 USBCtrlTrfTxService ]
+"1856
+[v _USBCtrlTrfRxService USBCtrlTrfRxService `(v  1 s 1 USBCtrlTrfRxService ]
+"1972
+[v _USBStdSetCfgHandler USBStdSetCfgHandler `(v  1 s 1 USBStdSetCfgHandler ]
+"2047
+[v _USBStdGetDscHandler USBStdGetDscHandler `(v  1 s 1 USBStdGetDscHandler ]
+"2133
+[v _USBStdGetStatusHandler USBStdGetStatusHandler `(v  1 s 1 USBStdGetStatusHandler ]
+"2206
+[v _USBStallHandler USBStallHandler `(v  1 s 1 USBStallHandler ]
+"2249
+[v _USBSuspend USBSuspend `(v  1 s 1 USBSuspend ]
+"2307
+[v _USBWakeFromSuspend USBWakeFromSuspend `(v  1 s 1 USBWakeFromSuspend ]
+"2376
+[v _USBCtrlEPService USBCtrlEPService `(v  1 s 1 USBCtrlEPService ]
+"2469
+[v _USBCtrlTrfSetupHandler USBCtrlTrfSetupHandler `(v  1 s 1 USBCtrlTrfSetupHandler ]
+"2542
+[v _USBCtrlTrfOutHandler USBCtrlTrfOutHandler `(v  1 s 1 USBCtrlTrfOutHandler ]
+"2596
+[v _USBCtrlTrfInHandler USBCtrlTrfInHandler `(v  1 s 1 USBCtrlTrfInHandler ]
+"2690
+[v _USBCheckStdRequest USBCheckStdRequest `(v  1 s 1 USBCheckStdRequest ]
+"2758
+[v _USBStdFeatureReqHandler USBStdFeatureReqHandler `(v  1 s 1 USBStdFeatureReqHandler ]
+"3029
+[v _USBIncrement1msInternalTimers USBIncrement1msInternalTimers `(v  1 e 1 0 ]
+"147 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_SPI.X/mcc_generated_files/usb/usb_device_cdc.c
+[v _USBCheckCDCRequest USBCheckCDCRequest `(v  1 e 1 0 ]
+"294
+[v _CDCInitEP CDCInitEP `(v  1 e 1 0 ]
+"503
+[v _getsUSBUSART getsUSBUSART `(uc  1 e 1 0 ]
+"574
+[v _putUSBUSART putUSBUSART `(v  1 e 1 0 ]
+"647
+[v _putsUSBUSART putsUSBUSART `(v  1 e 1 0 ]
+"854
+[v _CDCTxService CDCTxService `(v  1 e 1 0 ]
+"49 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_SPI.X/mcc_generated_files/usb/usb_device_events.c
+[v _USER_USB_CALLBACK_EVENT_HANDLER USER_USB_CALLBACK_EVENT_HANDLER `(a  1 e 1 0 ]
+"233 /Applications/microchip/mplabx/v6.00/packs/Microchip/PIC18F-K_DFP/1.5.114/xc8/pic/include/proc/pic18f45k50.h
+[v _ANSELA ANSELA `VEuc  1 e 1 @3931 ]
+[s S117 . 1 `uc 1 ANSA0 1 0 :1:0 
+`uc 1 ANSA1 1 0 :1:1 
+`uc 1 ANSA2 1 0 :1:2 
+`uc 1 ANSA3 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 ANSA5 1 0 :1:5 
+]
+"248
+[u S124 . 1 `S117 1 . 1 0 ]
+[v _ANSELAbits ANSELAbits `VES124  1 e 1 @3931 ]
+"278
+[v _ANSELB ANSELB `VEuc  1 e 1 @3932 ]
+"328
+[v _ANSELC ANSELC `VEuc  1 e 1 @3933 ]
+"362
+[v _ANSELD ANSELD `VEuc  1 e 1 @3934 ]
+"424
+[v _ANSELE ANSELE `VEuc  1 e 1 @3935 ]
+"456
+[v _UCON UCON `VEuc  1 e 1 @3936 ]
+[s S1547 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 SUSPND 1 0 :1:1 
+`uc 1 RESUME 1 0 :1:2 
+`uc 1 USBEN 1 0 :1:3 
+`uc 1 PKTDIS 1 0 :1:4 
+`uc 1 SE0 1 0 :1:5 
+`uc 1 PPBRST 1 0 :1:6 
+]
+"472
+[u S1555 . 1 `S1547 1 . 1 0 ]
+[v _UCONbits UCONbits `VES1555  1 e 1 @3936 ]
+"507
+[v _USTAT USTAT `VEuc  1 e 1 @3937 ]
+"567
+[v _UCFG UCFG `VEuc  1 e 1 @3938 ]
+"646
+[v _UADDR UADDR `VEuc  1 e 1 @3939 ]
+"710
+[v _UIE UIE `VEuc  1 e 1 @3940 ]
+[s S1866 . 1 `uc 1 URSTIE 1 0 :1:0 
+`uc 1 UERRIE 1 0 :1:1 
+`uc 1 ACTVIE 1 0 :1:2 
+`uc 1 TRNIE 1 0 :1:3 
+`uc 1 IDLEIE 1 0 :1:4 
+`uc 1 STALLIE 1 0 :1:5 
+`uc 1 SOFIE 1 0 :1:6 
+]
+"726
+[u S1874 . 1 `S1866 1 . 1 0 ]
+[v _UIEbits UIEbits `VES1874  1 e 1 @3940 ]
+"766
+[v _UIR UIR `VEuc  1 e 1 @3941 ]
+[s S1847 . 1 `uc 1 URSTIF 1 0 :1:0 
+`uc 1 UERRIF 1 0 :1:1 
+`uc 1 ACTVIF 1 0 :1:2 
+`uc 1 TRNIF 1 0 :1:3 
+`uc 1 IDLEIF 1 0 :1:4 
+`uc 1 STALLIF 1 0 :1:5 
+`uc 1 SOFIF 1 0 :1:6 
+]
+"782
+[u S1855 . 1 `S1847 1 . 1 0 ]
+[v _UIRbits UIRbits `VES1855  1 e 1 @3941 ]
+"822
+[v _UEIE UEIE `VEuc  1 e 1 @3942 ]
+"873
+[v _UEIR UEIR `VEuc  1 e 1 @3943 ]
+"1049
+[v _UEP0 UEP0 `VEuc  1 e 1 @3946 ]
+[s S2032 . 1 `uc 1 EPSTALL 1 0 :1:0 
+`uc 1 EPINEN 1 0 :1:1 
+`uc 1 EPOUTEN 1 0 :1:2 
+`uc 1 EPCONDIS 1 0 :1:3 
+`uc 1 EPHSHK 1 0 :1:4 
+]
+"1077
+[s S2038 . 1 `uc 1 EP0STALL 1 0 :1:0 
+`uc 1 EP0INEN 1 0 :1:1 
+`uc 1 EP0OUTEN 1 0 :1:2 
+`uc 1 EP0CONDIS 1 0 :1:3 
+`uc 1 EP0HSHK 1 0 :1:4 
+]
+[s S2044 . 1 `uc 1 EPSTALL0 1 0 :1:0 
+`uc 1 EPINEN0 1 0 :1:1 
+`uc 1 EPOUTEN0 1 0 :1:2 
+`uc 1 EPCONDIS0 1 0 :1:3 
+`uc 1 EPHSHK0 1 0 :1:4 
+]
+[u S2050 . 1 `S2032 1 . 1 0 `S2038 1 . 1 0 `S2044 1 . 1 0 ]
+[v _UEP0bits UEP0bits `VES2050  1 e 1 @3946 ]
+"1157
+[v _UEP1 UEP1 `VEuc  1 e 1 @3947 ]
+"3546
+[v _WPUB WPUB `VEuc  1 e 1 @3973 ]
+"3780
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+[s S134 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+`uc 1 LATA7 1 0 :1:7 
+]
+"3807
+[s S143 . 1 `uc 1 LA0 1 0 :1:0 
+`uc 1 LA1 1 0 :1:1 
+`uc 1 LA2 1 0 :1:2 
+`uc 1 LA3 1 0 :1:3 
+`uc 1 LA4 1 0 :1:4 
+`uc 1 LA5 1 0 :1:5 
+`uc 1 LA6 1 0 :1:6 
+`uc 1 LA7 1 0 :1:7 
+]
+[u S152 . 1 `S134 1 . 1 0 `S143 1 . 1 0 ]
+[v _LATAbits LATAbits `VES152  1 e 1 @3977 ]
+"3892
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"4004
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+"4106
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+[s S183 . 1 `uc 1 LATD0 1 0 :1:0 
+`uc 1 LATD1 1 0 :1:1 
+`uc 1 LATD2 1 0 :1:2 
+`uc 1 LATD3 1 0 :1:3 
+`uc 1 LATD4 1 0 :1:4 
+`uc 1 LATD5 1 0 :1:5 
+`uc 1 LATD6 1 0 :1:6 
+`uc 1 LATD7 1 0 :1:7 
+]
+"4133
+[s S192 . 1 `uc 1 LD0 1 0 :1:0 
+`uc 1 LD1 1 0 :1:1 
+`uc 1 LD2 1 0 :1:2 
+`uc 1 LD3 1 0 :1:3 
+`uc 1 LD4 1 0 :1:4 
+`uc 1 LD5 1 0 :1:5 
+`uc 1 LD6 1 0 :1:6 
+`uc 1 LD7 1 0 :1:7 
+]
+[u S201 . 1 `S183 1 . 1 0 `S192 1 . 1 0 ]
+[v _LATDbits LATDbits `VES201  1 e 1 @3980 ]
+"4218
+[v _LATE LATE `VEuc  1 e 1 @3981 ]
+"4627
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+[s S77 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+`uc 1 TRISA7 1 0 :1:7 
+]
+"4659
+[s S86 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+[u S95 . 1 `S77 1 . 1 0 `S86 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES95  1 e 1 @3986 ]
+"4849
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+[s S306 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"4881
+[s S315 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+[u S324 . 1 `S306 1 . 1 0 `S315 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES324  1 e 1 @3987 ]
+"5071
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"5249
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"5471
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+"6051
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3995 ]
+[s S396 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 ACTIF 1 0 :1:7 
+]
+"6319
+[s S405 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 STIF 1 0 :1:7 
+]
+[s S412 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 PSPIF 1 0 :1:7 
+]
+[u S415 . 1 `S396 1 . 1 0 `S405 1 . 1 0 `S412 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES415  1 e 1 @3998 ]
+[s S679 . 1 `uc 1 TMR1GIE 1 0 :1:0 
+`uc 1 TMR3GIE 1 0 :1:1 
+`uc 1 USBIE 1 0 :1:2 
+`uc 1 CTMUIE 1 0 :1:3 
+]
+"6808
+[s S684 . 1 `uc 1 RXB0IE 1 0 :1:0 
+`uc 1 RXB1IE 1 0 :1:1 
+`uc 1 TXB0IE 1 0 :1:2 
+`uc 1 TXB1IE 1 0 :1:3 
+]
+[s S689 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RXBNIE 1 0 :1:1 
+]
+[u S692 . 1 `S679 1 . 1 0 `S684 1 . 1 0 `S689 1 . 1 0 ]
+[v _PIE3bits PIE3bits `VES692  1 e 1 @4003 ]
+[s S710 . 1 `uc 1 TMR1GIF 1 0 :1:0 
+`uc 1 TMR3GIF 1 0 :1:1 
+`uc 1 USBIF 1 0 :1:2 
+`uc 1 CTMUIF 1 0 :1:3 
+]
+"6875
+[s S715 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RXBNIF 1 0 :1:1 
+]
+[u S718 . 1 `S710 1 . 1 0 `S715 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES718  1 e 1 @4004 ]
+[s S1967 . 1 `uc 1 TMR1GIP 1 0 :1:0 
+`uc 1 TMR3GIP 1 0 :1:1 
+`uc 1 USBIP 1 0 :1:2 
+`uc 1 CTMUIP 1 0 :1:3 
+]
+"6922
+[s S1972 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RXBNIP 1 0 :1:1 
+]
+[u S1975 . 1 `S1967 1 . 1 0 `S1972 1 . 1 0 ]
+[v _IPR3bits IPR3bits `VES1975  1 e 1 @4005 ]
+"8211
+[v _ACTCON ACTCON `VEuc  1 e 1 @4021 ]
+"9885
+[v _SSP1CON2 SSP1CON2 `VEuc  1 e 1 @4037 ]
+"10239
+[v _SSP1CON1 SSP1CON1 `VEuc  1 e 1 @4038 ]
+[s S346 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"10278
+[s S352 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[s S357 . 1 `uc 1 SSPM01 1 0 :1:0 
+`uc 1 SSPM11 1 0 :1:1 
+`uc 1 SSPM21 1 0 :1:2 
+`uc 1 SSPM31 1 0 :1:3 
+`uc 1 CKP1 1 0 :1:4 
+`uc 1 SSPEN1 1 0 :1:5 
+`uc 1 SSPOV1 1 0 :1:6 
+`uc 1 WCOL1 1 0 :1:7 
+]
+[u S366 . 1 `S346 1 . 1 0 `S352 1 . 1 0 `S357 1 . 1 0 ]
+[v _SSP1CON1bits SSP1CON1bits `VES366  1 e 1 @4038 ]
+"10593
+[v _SSP1STAT SSP1STAT `VEuc  1 e 1 @4039 ]
+"11191
+[v _SSP1ADD SSP1ADD `VEuc  1 e 1 @4040 ]
+"11529
+[v _SSP1BUF SSP1BUF `VEuc  1 e 1 @4041 ]
+[s S585 . 1 `uc 1 NOT_BOR 1 0 :1:0 
+]
+"12177
+[s S587 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_POR 1 0 :1:1 
+]
+[s S590 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_PD 1 0 :1:2 
+]
+[s S593 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_TO 1 0 :1:3 
+]
+[s S596 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 NOT_RI 1 0 :1:4 
+]
+[s S599 . 1 `uc 1 nBOR 1 0 :1:0 
+`uc 1 nPOR 1 0 :1:1 
+`uc 1 nPD 1 0 :1:2 
+`uc 1 nTO 1 0 :1:3 
+`uc 1 nRI 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 SBOREN 1 0 :1:6 
+`uc 1 IPEN 1 0 :1:7 
+]
+[s S608 . 1 `uc 1 BOR 1 0 :1:0 
+`uc 1 POR 1 0 :1:1 
+`uc 1 PD 1 0 :1:2 
+`uc 1 TO 1 0 :1:3 
+`uc 1 RI 1 0 :1:4 
+]
+[u S614 . 1 `S585 1 . 1 0 `S587 1 . 1 0 `S590 1 . 1 0 `S593 1 . 1 0 `S596 1 . 1 0 `S599 1 . 1 0 `S608 1 . 1 0 ]
+[v _RCONbits RCONbits `VES614  1 e 1 @4048 ]
+"12295
+[v _OSCCON2 OSCCON2 `VEuc  1 e 1 @4050 ]
+"12357
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+[s S501 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 NOT_RBPU 1 0 :1:7 
+]
+"13176
+[s S504 . 1 `uc 1 IOCIP 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 TMR0IP 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INTEDG2 1 0 :1:4 
+`uc 1 INTEDG1 1 0 :1:5 
+`uc 1 INTEDG0 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+[s S513 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IP 1 0 :1:2 
+`uc 1 . 1 0 :4:3 
+`uc 1 RBPU 1 0 :1:7 
+]
+[u S518 . 1 `S501 1 . 1 0 `S504 1 . 1 0 `S513 1 . 1 0 ]
+[v _INTCON2bits INTCON2bits `VES518  1 e 1 @4081 ]
+[s S28 . 1 `uc 1 IOCIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 IOCIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"13258
+[s S37 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S46 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S50 . 1 `S28 1 . 1 0 `S37 1 . 1 0 `S46 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES50  1 e 1 @4082 ]
+"15586
+[v _PLLRDY PLLRDY `VEb  1 e 0 @32407 ]
+"55 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/doprnt.c
+[v _flags flags `i  1 s 2 flags ]
+[v _prec prec `i  1 s 2 prec ]
+[v _width width `i  1 s 2 width ]
+"66
+[v _dbuf dbuf `[80]uc  1 s 80 dbuf ]
+"69
+[v _nout nout `i  1 s 2 nout ]
+"49 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_SPI.X/mcc_generated_files/examples/spi_master_example.c
+[v _buffer buffer `[16]uc  1 s 16 buffer ]
+[s S298 . 4 `uc 1 con1 1 0 `uc 1 stat 1 1 `uc 1 add 1 2 `uc 1 operation 1 3 ]
+"58 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_SPI.X/mcc_generated_files/spi1.c
+[v _spi1_configuration spi1_configuration `C[2]S298  1 s 8 spi1_configuration ]
+"34 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_SPI.X/mcc_generated_files/usb/example_mcc_usb_cdc.c
+[v _readBuffer readBuffer `[64]uc  1 s 64 readBuffer ]
+"35
+[v _writeBuffer writeBuffer `[64]uc  1 s 64 writeBuffer ]
+[s S1998 _USB_DEVICE_DESCRIPTOR 18 `uc 1 bLength 1 0 `uc 1 bDescriptorType 1 1 `us 1 bcdUSB 2 2 `uc 1 bDeviceClass 1 4 `uc 1 bDeviceSubClass 1 5 `uc 1 bDeviceProtocol 1 6 `uc 1 bMaxPacketSize0 1 7 `us 1 idVendor 2 8 `us 1 idProduct 2 10 `us 1 bcdDevice 2 12 `uc 1 iManufacturer 1 14 `uc 1 iProduct 1 15 `uc 1 iSerialNumber 1 16 `uc 1 bNumConfigurations 1 17 ]
+"155 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_SPI.X/mcc_generated_files/usb/usb_descriptors.c
+[v _device_dsc device_dsc `CS1998  1 e 18 0 ]
+"174
+[v _configDescriptor1 configDescriptor1 `C[67]uc  1 e 67 0 ]
+[s S3020 . 4 `uc 1 bLength 1 0 `uc 1 bDscType 1 1 `[1]us 1 string 2 2 ]
+"259
+[v _sd000 sd000 `CS3020  1 e 4 0 ]
+[s S3024 . 52 `uc 1 bLength 1 0 `uc 1 bDscType 1 1 `[25]us 1 string 50 2 ]
+"263
+[v _sd001 sd001 `CS3024  1 e 52 0 ]
+[s S3028 . 26 `uc 1 bLength 1 0 `uc 1 bDscType 1 1 `[12]us 1 string 24 2 ]
+"269
+[v _sd002 sd002 `CS3028  1 e 26 0 ]
+"275
+[v _USB_CD_Ptr USB_CD_Ptr `C[1]*.25Cuc  1 e 2 0 ]
+"281
+[v _USB_SD_Ptr USB_SD_Ptr `C[3]*.25Cuc  1 e 6 0 ]
+"141 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_SPI.X/mcc_generated_files/usb/usb_device.c
+[v _USBDeviceState USBDeviceState `VEE297  1 e 1 0 ]
+"142
+[v _USBActiveConfiguration USBActiveConfiguration `VEuc  1 e 1 0 ]
+"143
+[v _USBAlternateInterface USBAlternateInterface `VE[2]uc  1 e 2 0 ]
+[s S1248 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"144
+[s S1257 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S1264 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S1268 _BD_STAT 1 `uc 1 Val 1 0 `S1248 1 . 1 0 `S1257 1 . 1 0 `S1264 1 . 1 0 ]
+[s S1273 . 4 `S1268 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S1278 . 4 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`us 1 ADR 2 2 ]
+[u S1282 __BDT 4 `S1273 1 . 4 0 `S1278 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v _pBDTEntryEP0OutCurrent pBDTEntryEP0OutCurrent `*.39VES1282  1 e 2 0 ]
+"145
+[v _pBDTEntryEP0OutNext pBDTEntryEP0OutNext `*.39VES1282  1 e 2 0 ]
+"146
+[v _pBDTEntryOut pBDTEntryOut `[3]*.39VES1282  1 e 6 0 ]
+"147
+[v _pBDTEntryIn pBDTEntryIn `[3]*.39VES1282  1 e 6 0 ]
+"148
+[v _shortPacketStatus shortPacketStatus `VEuc  1 e 1 0 ]
+"149
+[v _controlTransferState controlTransferState `VEuc  1 e 1 0 ]
+[u S1149 . 3 `*.2uc 1 bRam 3 0 `*.2Cuc 1 bRom 3 0 `*.2us 1 wRam 3 0 `*.2Cus 1 wRom 3 0 ]
+"150
+[s S1154 . 1 `uc 1 ctrl_trf_mem 1 0 :1:0 
+`uc 1 reserved 1 0 :5:1 
+`uc 1 includeZero 1 0 :1:6 
+`uc 1 busy 1 0 :1:7 
+]
+[u S1159 . 1 `S1154 1 bits 1 0 `uc 1 Val 1 0 ]
+[s S935 . 2 `uc 1 LB 1 0 `uc 1 HB 1 1 ]
+[u S938 . 2 `us 1 Val 2 0 `[2]uc 1 v 2 0 `S935 1 byte 2 0 ]
+[s S1169 . 6 `S1149 1 pSrc 3 0 `S1159 1 info 1 3 `S938 1 wCount 2 4 ]
+[v _inPipes inPipes `VE[1]S1169  1 e 6 0 ]
+[u S1174 . 3 `*.2uc 1 bRam 3 0 `*.2us 1 wRam 3 0 ]
+"151
+[s S1177 . 1 `uc 1 reserved 1 0 :7:0 
+`uc 1 busy 1 0 :1:7 
+]
+[u S1180 . 1 `S1177 1 bits 1 0 `uc 1 Val 1 0 ]
+[s S1184 . 8 `S1174 1 pDst 3 0 `S1180 1 info 1 3 `S938 1 wCount 2 4 `*.37(v 1 pFunc 2 6 ]
+[v _outPipes outPipes `VE[1]S1184  1 e 8 0 ]
+"152
+[v _pDst pDst `*.39VEuc  1 e 2 0 ]
+"153
+[v _RemoteWakeup RemoteWakeup `VEa  1 e 1 0 ]
+"154
+[v _USBBusIsSuspended USBBusIsSuspended `VEa  1 e 1 0 ]
+[s S1670 . 1 `uc 1 filler1 1 0 :1:0 
+`uc 1 ping_pong 1 0 :1:1 
+`uc 1 direction 1 0 :1:2 
+`uc 1 endpoint_number 1 0 :4:3 
+]
+"155
+[u S1675 __USTAT 1 `S1670 1 . 1 0 `uc 1 Val 1 0 ]
+[v _USTATcopy USTATcopy `VES1675  1 e 1 0 ]
+"156
+[v _endpoint_number endpoint_number `VEuc  1 e 1 0 ]
+"157
+[v _BothEP0OutUOWNsSet BothEP0OutUOWNsSet `VEa  1 e 1 0 ]
+[s S1678 . 1 `uc 1 ping_pong_state 1 0 :1:0 
+`uc 1 transfer_terminated 1 0 :1:1 
+]
+"158
+[u S1681 . 1 `S1678 1 bits 1 0 `uc 1 Val 1 0 ]
+[v _ep_data_in ep_data_in `VE[3]S1681  1 e 3 0 ]
+"159
+[v _ep_data_out ep_data_out `VE[3]S1681  1 e 3 0 ]
+"160
+[v _USBStatusStageTimeoutCounter USBStatusStageTimeoutCounter `VEuc  1 e 1 0 ]
+"161
+[v _USBDeferStatusStagePacket USBDeferStatusStagePacket `VEa  1 e 1 0 ]
+"162
+[v _USBStatusStageEnabledFlag1 USBStatusStageEnabledFlag1 `VEa  1 e 1 0 ]
+"163
+[v _USBStatusStageEnabledFlag2 USBStatusStageEnabledFlag2 `VEa  1 e 1 0 ]
+"164
+[v _USBDeferINDataStagePackets USBDeferINDataStagePackets `VEa  1 e 1 0 ]
+"165
+[v _USBDeferOUTDataStagePackets USBDeferOUTDataStagePackets `VEa  1 e 1 0 ]
+"166
+[v _USB1msTickCount USB1msTickCount `VEul  1 e 4 0 ]
+"167
+[v _USBTicksSinceSuspendEnd USBTicksSinceSuspendEnd `VEuc  1 e 1 0 ]
+"174
+[v _BDT BDT `VE[12]S1282  1 e 48 @1024 ]
+[s S929 . 8 `uc 1 bmRequestType 1 0 `uc 1 bRequest 1 1 `us 1 wValue 2 2 `us 1 wIndex 2 4 `us 1 wLength 2 6 ]
+"179
+[s S956 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`S938 1 W_Value 2 2 `S938 1 W_Index 2 4 `S938 1 W_Length 2 6 ]
+[s S962 . 8 `uc 1 Recipient 1 0 :5:0 
+`uc 1 RequestType 1 0 :2:5 
+`uc 1 DataDir 1 0 :1:7 
+`uc 1 . 1 1 :8:0 
+`uc 1 bFeature 1 2 `uc 1 . 1 3 :8:0 
+`uc 1 . 1 4 :8:0 
+`uc 1 . 1 5 :8:0 
+`uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S973 . 1 `uc 1 recipient 1 0 :5:0 
+`uc 1 type 1 0 :2:5 
+`uc 1 direction 1 0 :1:7 
+]
+[u S977 . 1 `uc 1 bmRequestType 1 0 `S973 1 . 1 0 ]
+[s S980 . 1 `S977 1 requestInfo 1 0 ]
+[s S982 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 bDscIndex 1 2 `uc 1 bDescriptorType 1 3 `us 1 wLangID 2 4 `uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S990 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 bDevADR 1 2 `uc 1 bDevADRH 1 3 `uc 1 . 1 4 :8:0 
+`uc 1 . 1 5 :8:0 
+`uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S999 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 bConfigurationValue 1 2 `uc 1 bCfgRSD 1 3 `uc 1 . 1 4 :8:0 
+`uc 1 . 1 5 :8:0 
+`uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S1008 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 bAltID 1 2 `uc 1 bAltID_H 1 3 `uc 1 bIntfID 1 4 `uc 1 bIntfID_H 1 5 `uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S1017 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 . 1 2 :8:0 
+`uc 1 . 1 3 :8:0 
+`uc 1 bEPID 1 4 `uc 1 bEPID_H 1 5 `uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[s S1026 . 8 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`uc 1 . 1 2 :8:0 
+`uc 1 . 1 3 :8:0 
+`uc 1 EPNum 1 4 :4:0 
+`uc 1 . 1 4 :3:4 
+`uc 1 EPDir 1 4 :1:7 
+`uc 1 . 1 5 :8:0 
+`uc 1 . 1 6 :8:0 
+`uc 1 . 1 7 :8:0 
+]
+[u S1037 . 8 `S929 1 . 8 0 `S956 1 . 8 0 `S962 1 . 8 0 `S980 1 . 1 0 `S982 1 . 8 0 `S990 1 . 8 0 `S999 1 . 8 0 `S1008 1 . 8 0 `S1017 1 . 8 0 `S1026 1 . 8 0 ]
+[v _SetupPkt SetupPkt `VES1037  1 e 8 @1072 ]
+"180
+[v _CtrlTrfData CtrlTrfData `VE[8]uc  1 e 8 @1080 ]
+"65 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_SPI.X/mcc_generated_files/usb/usb_device_cdc.c
+[v _cdc_data_tx cdc_data_tx `VE[64]uc  1 e 64 @1280 ]
+"66
+[v _cdc_data_rx cdc_data_rx `VE[64]uc  1 e 64 @1344 ]
+[s S899 . 7 `[7]uc 1 _byte 7 0 ]
+"76
+[s S901 . 7 `ul 1 dwDTERate 4 0 `uc 1 bCharFormat 1 4 `uc 1 bParityType 1 5 `uc 1 bDataBits 1 6 ]
+[u S906 _LINE_CODING 7 `S899 1 . 7 0 `S901 1 . 7 0 ]
+[v _line_coding line_coding `S906  1 e 7 0 ]
+"83
+[v _cdc_rx_len cdc_rx_len `uc  1 e 1 0 ]
+"84
+[v _cdc_trf_state cdc_trf_state `uc  1 e 1 0 ]
+[s S913 . 2 `uc 1 bLow 1 0 `uc 1 bHigh 1 1 ]
+"85
+[u S916 _POINTER 3 `S913 1 . 2 0 `us 1 _word 2 0 `*.2uc 1 bRam 3 0 `*.2us 1 wRam 3 0 `*.2Cuc 1 bRom 3 0 `*.2Cus 1 wRom 3 0 ]
+[v _pCDCSrc pCDCSrc `S916  1 e 3 0 ]
+"86
+[v _pCDCDst pCDCDst `S916  1 e 3 0 ]
+"87
+[v _cdc_tx_len cdc_tx_len `uc  1 e 1 0 ]
+"88
+[v _cdc_mem_type cdc_mem_type `uc  1 e 1 0 ]
+"90
+[v _CDCDataOutHandle CDCDataOutHandle `*.39v  1 e 2 0 ]
+"91
+[v _CDCDataInHandle CDCDataInHandle `*.39v  1 e 2 0 ]
+[s S923 . 1 `uc 1 DTE_PRESENT 1 0 :1:0 
+`uc 1 CARRIER_CONTROL 1 0 :1:1 
+]
+"94
+[u S926 _CONTROL_SIGNAL_BITMAP 1 `uc 1 _byte 1 0 `S923 1 . 1 0 ]
+[v _control_signal_bitmap control_signal_bitmap `S926  1 e 1 0 ]
+"110
+[v _dummy_encapsulated_cmd_response dummy_encapsulated_cmd_response `[8]uc  1 e 8 0 ]
+"3 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_SPI.X/main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"10
+[v main@data2 data2 `[20]uc  1 a 20 0 ]
+"12
+[v main@temperature temperature `f  1 a 4 24 ]
+"11
+[v main@buffer buffer `[2]uc  1 s 2 buffer ]
+"39
+} 0
+"9 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+{
+[u S3500 . 3 `*.2uc 1 buffer 3 0 `*.2Cuc 1 source 3 0 ]
+"13
+[s S3503 _IO_FILE 11 `S3500 1 . 3 0 `i 1 count 2 3 `[2]uc 1 ungetbuf 2 5 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v sprintf@f f `S3503  1 a 11 2 ]
+"12
+[v sprintf@ap ap `[1]*.39v  1 a 2 0 ]
+"9
+[v sprintf@s s `*.39uc  1 p 2 133 ]
+[v sprintf@fmt fmt `*.25Cuc  1 p 2 135 ]
+"23
+} 0
+"1390 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/doprnt.c
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+{
+"1393
+[v vfprintf@cfmt cfmt `*.25uc  1 a 2 131 ]
+[s S3535 _IO_FILE 0 ]
+"1390
+[v vfprintf@fp fp `*.39S3535  1 p 2 125 ]
+[v vfprintf@fmt fmt `*.25Cuc  1 p 2 127 ]
+[v vfprintf@ap ap `*.39*.39v  1 p 2 129 ]
+"1404
+} 0
+"692
+[v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
+{
+"698
+[v vfpfcnvrt@f f `d  1 a 4 117 ]
+"694
+[v vfpfcnvrt@ct ct `[3]uc  1 a 3 121 ]
+[v vfpfcnvrt@c c `uc  1 a 1 124 ]
+[s S3535 _IO_FILE 0 ]
+"692
+[v vfpfcnvrt@fp fp `*.39S3535  1 p 2 107 ]
+[v vfpfcnvrt@fmt fmt `*.39*.25uc  1 p 2 109 ]
+[v vfpfcnvrt@ap ap `*.39*.39v  1 p 2 111 ]
+"1387
+} 0
+"3 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/strncmp.c
+[v _strncmp strncmp `(i  1 e 2 0 ]
+{
+"5
+[v strncmp@r r `*.25Cuc  1 a 2 9 ]
+[v strncmp@l l `*.39Cuc  1 a 2 7 ]
+"3
+[v strncmp@_l _l `*.39Cuc  1 p 2 0 ]
+[v strncmp@_r _r `*.25Cuc  1 p 2 2 ]
+[v strncmp@n n `ui  1 p 2 4 ]
+"9
+} 0
+"332 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/doprnt.c
+[v _efgtoa efgtoa `(i  1 s 2 efgtoa ]
+{
+"336
+[v efgtoa@u u `d  1 a 4 103 ]
+[v efgtoa@g g `d  1 a 4 95 ]
+[v efgtoa@l l `d  1 a 4 89 ]
+[v efgtoa@h h `d  1 a 4 85 ]
+[v efgtoa@ou ou `d  1 a 4 71 ]
+"335
+[v efgtoa@n n `i  1 a 2 101 ]
+[v efgtoa@e e `i  1 a 2 99 ]
+[v efgtoa@i i `i  1 a 2 93 ]
+[v efgtoa@w w `i  1 a 2 81 ]
+[v efgtoa@p p `i  1 a 2 79 ]
+[v efgtoa@sign sign `i  1 a 2 77 ]
+[v efgtoa@d d `i  1 a 2 75 ]
+[v efgtoa@m m `i  1 a 2 69 ]
+[v efgtoa@ne ne `i  1 a 2 67 ]
+[v efgtoa@pp pp `i  1 a 2 65 ]
+[v efgtoa@t t `i  1 a 2 63 ]
+"334
+[v efgtoa@mode mode `uc  1 a 1 84 ]
+[v efgtoa@nmode nmode `uc  1 a 1 83 ]
+[s S3535 _IO_FILE 0 ]
+"332
+[v efgtoa@fp fp `*.39S3535  1 p 2 45 ]
+[v efgtoa@f f `d  1 p 4 47 ]
+[v efgtoa@c c `uc  1 p 1 51 ]
+"525
+} 0
+"4 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/tolower.c
+[v _tolower tolower `(i  1 e 2 0 ]
+{
+[v tolower@c c `i  1 p 2 6 ]
+"8
+} 0
+"5 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/isupper.c
+[v _isupper isupper `(i  1 e 2 0 ]
+{
+[v isupper@c c `i  1 p 2 0 ]
+"8
+} 0
+"3 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/strcpy.c
+[v _strcpy strcpy `(*.39uc  1 e 2 0 ]
+{
+"6
+[v strcpy@d d `*.39uc  1 a 2 8 ]
+"5
+[v strcpy@s s `*.35Cuc  1 a 2 6 ]
+"3
+[v strcpy@dest dest `*.39uc  1 p 2 0 ]
+[v strcpy@src src `*.35Cuc  1 p 2 2 ]
+"9
+} 0
+"72 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/doprnt.c
+[v _pad pad `(i  1 s 2 pad ]
+{
+"74
+[v pad@w w `i  1 a 2 25 ]
+[v pad@i i `i  1 a 2 23 ]
+[s S3535 _IO_FILE 0 ]
+"72
+[v pad@fp fp `*.39S3535  1 p 2 16 ]
+[v pad@buf buf `*.39uc  1 p 2 18 ]
+[v pad@p p `i  1 p 2 20 ]
+"95
+} 0
+"5 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+"7
+[v strlen@a a `*.35Cuc  1 a 2 2 ]
+"5
+[v strlen@s s `*.35Cuc  1 p 2 0 ]
+"12
+} 0
+"8 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+{
+"11
+[v fputs@i i `i  1 a 2 14 ]
+"10
+[v fputs@c c `uc  1 a 1 13 ]
+"8
+[v fputs@s s `*.39Cuc  1 p 2 9 ]
+[u S3500 . 3 `*.2uc 1 buffer 3 0 `*.2Cuc 1 source 3 0 ]
+[s S3503 _IO_FILE 11 `S3500 1 . 3 0 `i 1 count 2 3 `[2]uc 1 ungetbuf 2 5 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v fputs@fp fp `*.39S3503  1 p 2 11 ]
+"19
+} 0
+"8 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+{
+[v fputc@c c `i  1 p 2 0 ]
+[u S3500 . 3 `*.2uc 1 buffer 3 0 `*.2Cuc 1 source 3 0 ]
+[s S3503 _IO_FILE 11 `S3500 1 . 3 0 `i 1 count 2 3 `[2]uc 1 ungetbuf 2 5 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v fputc@fp fp `*.39S3503  1 p 2 2 ]
+"24
+} 0
+"7 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/putch.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+"9
+} 0
+"3 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/floorf.c
+[v _floorf floorf `(f  1 e 4 0 ]
+{
+[u S3651 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
+"5
+[v floorf@u u `S3651  1 a 4 41 ]
+"7
+[v floorf@m m `ul  1 a 4 35 ]
+"6
+[v floorf@e e `i  1 a 2 39 ]
+"3
+[v floorf@x x `f  1 p 4 25 ]
+"4
+[v floorf@F526 F526 `S3651  1 s 4 F526 ]
+"27
+} 0
+"4 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/__fpclassifyf.c
+[v ___fpclassifyf __fpclassifyf `(i  1 e 2 0 ]
+{
+[u S3651 . 4 `f 1 f 4 0 `ul 1 i 4 0 ]
+"6
+[v ___fpclassifyf@u u `S3651  1 a 4 10 ]
+"7
+[v ___fpclassifyf@e e `i  1 a 2 8 ]
+"4
+[v ___fpclassifyf@x x `f  1 p 4 0 ]
+"5
+[v ___fpclassifyf@F465 F465 `S3651  1 s 4 F465 ]
+"11
+} 0
+"43 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 9 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 8 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 0 ]
+"70
+} 0
+"245 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/sprcadd.c
+[v ___flsub __flsub `(d  1 e 4 0 ]
+{
+[v ___flsub@b b `d  1 p 4 25 ]
+[v ___flsub@a a `d  1 p 4 29 ]
+"250
+} 0
+"10
+[v ___fladd __fladd `(d  1 e 4 0 ]
+{
+"17
+[v ___fladd@grs grs `uc  1 a 1 15 ]
+"15
+[v ___fladd@bexp bexp `uc  1 a 1 14 ]
+"16
+[v ___fladd@aexp aexp `uc  1 a 1 13 ]
+"13
+[v ___fladd@signs signs `uc  1 a 1 12 ]
+"10
+[v ___fladd@b b `d  1 p 4 0 ]
+[v ___fladd@a a `d  1 p 4 4 ]
+"237
+} 0
+"15 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/flneg.c
+[v ___flneg __flneg `(d  1 e 4 0 ]
+{
+[v ___flneg@f1 f1 `d  1 p 4 0 ]
+"20
+} 0
+"8 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S3352 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S3357 . 4 `s 1 wordA 2 0 `s 1 wordB 2 2 ]
+[u S3360 . 4 `l 1 i 4 0 `d 1 f 4 0 `S3352 1 fAsBytes 4 0 `S3357 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S3360  1 a 4 19 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 14 ]
+[s S3428 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S3431 . 2 `s 1 i 2 0 `us 1 n 2 0 `S3428 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S3431  1 a 2 23 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 18 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 13 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 12 ]
+"8
+[v ___flmul@b b `d  1 p 4 0 ]
+[v ___flmul@a a `d  1 p 4 4 ]
+"205
+} 0
+"4 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+{
+[v ___flge@ff1 ff1 `d  1 p 4 25 ]
+[v ___flge@ff2 ff2 `d  1 p 4 29 ]
+"19
+} 0
+"4 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+{
+[v ___fleq@ff1 ff1 `d  1 p 4 0 ]
+[v ___fleq@ff2 ff2 `d  1 p 4 4 ]
+"12
+} 0
+"11 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 19 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 12 ]
+"20
+[v ___fldiv@new_exp new_exp `s  1 a 2 17 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 24 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 23 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 16 ]
+"11
+[v ___fldiv@b b `d  1 p 4 0 ]
+[v ___fldiv@a a `d  1 p 4 4 ]
+"185
+} 0
+"7 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 5 ]
+[v ___awmod@counter counter `uc  1 a 1 4 ]
+"7
+[v ___awmod@dividend dividend `i  1 p 2 0 ]
+[v ___awmod@divisor divisor `i  1 p 2 2 ]
+"34
+} 0
+"7 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 6 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 5 ]
+[v ___awdiv@counter counter `uc  1 a 1 4 ]
+"7
+[v ___awdiv@dividend dividend `i  1 p 2 0 ]
+[v ___awdiv@divisor divisor `i  1 p 2 2 ]
+"41
+} 0
+"56 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_SPI.X/mcc_generated_files/drivers/spi_master.c
+[v _spi_master_open spi_master_open `(a  1 e 1 0 ]
+{
+[v spi_master_open@config config `E377  1 a 1 wreg ]
+[v spi_master_open@config config `E377  1 a 1 wreg ]
+[v spi_master_open@config config `E377  1 a 1 4 ]
+"63
+} 0
+"41
+[v _MASTER0_open MASTER0_open `(a  1 e 1 0 ]
+{
+"43
+} 0
+"73 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_SPI.X/mcc_generated_files/spi1.c
+[v _SPI1_Open SPI1_Open `(a  1 e 1 0 ]
+{
+[v SPI1_Open@spi1UniqueConfiguration spi1UniqueConfiguration `E355  1 a 1 wreg ]
+[v SPI1_Open@spi1UniqueConfiguration spi1UniqueConfiguration `E355  1 a 1 wreg ]
+"75
+[v SPI1_Open@spi1UniqueConfiguration spi1UniqueConfiguration `E355  1 a 1 1 ]
+"86
+} 0
+"647 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_SPI.X/mcc_generated_files/usb/usb_device_cdc.c
+[v _putsUSBUSART putsUSBUSART `(v  1 e 1 0 ]
+{
+"650
+[v putsUSBUSART@pData pData `*.39uc  1 a 2 2 ]
+"649
+[v putsUSBUSART@len len `uc  1 a 1 4 ]
+"647
+[v putsUSBUSART@data data `*.39uc  1 p 2 0 ]
+"702
+} 0
+"10 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 10 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 9 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 0 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 8 ]
+"44
+} 0
+"50 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_SPI.X/mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"59
+} 0
+"281 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_SPI.X/mcc_generated_files/usb/usb_device.c
+[v _USBDeviceInit USBDeviceInit `(v  1 e 1 0 ]
+{
+"283
+[v USBDeviceInit@i i `uc  1 a 1 12 ]
+"375
+} 0
+"4 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/memset.c
+[v _memset memset `(*.39v  1 e 2 0 ]
+{
+"6
+[v memset@s s `*.39uc  1 a 2 10 ]
+"7
+[v memset@k k `ui  1 a 2 8 ]
+"4
+[v memset@dest dest `*.39v  1 p 2 0 ]
+[v memset@c c `i  1 p 2 2 ]
+[v memset@n n `ui  1 p 2 4 ]
+"90
+} 0
+"1356 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_SPI.X/mcc_generated_files/usb/usb_device.c
+[v _USBDeviceAttach USBDeviceAttach `(v  1 e 1 0 ]
+{
+"1386
+} 0
+"63 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_SPI.X/mcc_generated_files/spi1.c
+[v _SPI1_Initialize SPI1_Initialize `(v  1 e 1 0 ]
+{
+"71
+} 0
+"55 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_SPI.X/mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"97
+} 0
+"61 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_SPI.X/mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"75
+} 0
+"52 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_SPI.X/mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"56
+} 0
+"101 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_SPI.X/mcc_generated_files/spi1.c
+[v _SPI1_ExchangeBlock SPI1_ExchangeBlock `(v  1 e 1 0 ]
+{
+"103
+[v SPI1_ExchangeBlock@data data `*.39uc  1 a 2 4 ]
+"101
+[v SPI1_ExchangeBlock@block block `*.39v  1 p 2 0 ]
+[v SPI1_ExchangeBlock@blockSize blockSize `ui  1 p 2 2 ]
+"111
+} 0
+"854 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_SPI.X/mcc_generated_files/usb/usb_device_cdc.c
+[v _CDCTxService CDCTxService `(v  1 e 1 0 ]
+{
+"856
+[v CDCTxService@byte_to_send byte_to_send `uc  1 a 1 12 ]
+"857
+[v CDCTxService@i i `uc  1 a 1 11 ]
+"950
+} 0
+"999 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_SPI.X/mcc_generated_files/usb/usb_device.c
+[v _USBTransferOnePacket USBTransferOnePacket `(*.39v  1 e 2 0 ]
+{
+[v USBTransferOnePacket@ep ep `uc  1 a 1 wreg ]
+[s S1248 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"1001
+[s S1257 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S1264 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S1268 _BD_STAT 1 `uc 1 Val 1 0 `S1248 1 . 1 0 `S1257 1 . 1 0 `S1264 1 . 1 0 ]
+[s S1273 . 4 `S1268 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S1278 . 4 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`us 1 ADR 2 2 ]
+[u S1282 __BDT 4 `S1273 1 . 4 0 `S1278 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBTransferOnePacket@handle handle `*.39VES1282  1 a 2 9 ]
+"999
+[v USBTransferOnePacket@ep ep `uc  1 a 1 wreg ]
+[v USBTransferOnePacket@dir dir `uc  1 p 1 0 ]
+[v USBTransferOnePacket@data data `*.39uc  1 p 2 1 ]
+[v USBTransferOnePacket@len len `uc  1 p 1 3 ]
+"1004
+[v USBTransferOnePacket@ep ep `uc  1 a 1 8 ]
+"1051
+} 0
+"58 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_SPI.X/mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+{
+"76
+} 0
+"481 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_SPI.X/mcc_generated_files/usb/usb_device.c
+[v _USBDeviceTasks USBDeviceTasks `(v  1 e 1 0 ]
+{
+"483
+[v USBDeviceTasks@i i `uc  1 a 1 30 ]
+"831
+} 0
+"281
+[v i2_USBDeviceInit USBDeviceInit `(v  1 e 1 0 ]
+{
+"283
+[v i2USBDeviceInit@i i `uc  1 a 1 12 ]
+"375
+} 0
+"2307
+[v _USBWakeFromSuspend USBWakeFromSuspend `(v  1 s 1 USBWakeFromSuspend ]
+{
+"2353
+} 0
+"2249
+[v _USBSuspend USBSuspend `(v  1 s 1 USBSuspend ]
+{
+"2290
+} 0
+"2206
+[v _USBStallHandler USBStallHandler `(v  1 s 1 USBStallHandler ]
+{
+"2231
+} 0
+"3029
+[v _USBIncrement1msInternalTimers USBIncrement1msInternalTimers `(v  1 e 1 0 ]
+{
+"3047
+} 0
+"2376
+[v _USBCtrlEPService USBCtrlEPService `(v  1 s 1 USBCtrlEPService ]
+{
+"2427
+} 0
+"4 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/memcpy.c
+[v _memcpy memcpy `(*.39v  1 e 2 0 ]
+{
+"8
+[v memcpy@s s `*.39Cuc  1 a 2 8 ]
+"7
+[v memcpy@d d `*.39uc  1 a 2 6 ]
+"9
+[v memcpy@tmp tmp `uc  1 a 1 10 ]
+"4
+[v memcpy@d1 d1 `*.39v  1 p 2 0 ]
+[v memcpy@s1 s1 `*.39Cv  1 p 2 2 ]
+[v memcpy@n n `ui  1 p 2 4 ]
+"18
+} 0
+"2469 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_SPI.X/mcc_generated_files/usb/usb_device.c
+[v _USBCtrlTrfSetupHandler USBCtrlTrfSetupHandler `(v  1 s 1 USBCtrlTrfSetupHandler ]
+{
+"2519
+} 0
+"1620
+[v _USBCtrlEPServiceComplete USBCtrlEPServiceComplete `(v  1 s 1 USBCtrlEPServiceComplete ]
+{
+"1752
+} 0
+"1492
+[v _USBCtrlEPAllowDataStage USBCtrlEPAllowDataStage `(v  1 e 1 0 ]
+{
+"1522
+} 0
+"2690
+[v _USBCheckStdRequest USBCheckStdRequest `(v  1 s 1 USBCheckStdRequest ]
+{
+"2737
+} 0
+"1972
+[v _USBStdSetCfgHandler USBStdSetCfgHandler `(v  1 s 1 USBStdSetCfgHandler ]
+{
+"1974
+[v USBStdSetCfgHandler@i i `uc  1 a 1 20 ]
+"2028
+} 0
+"4 /Applications/microchip/xc8/v2.35/pic/sources/c99/common/memset.c
+[v i2_memset memset `(*.39v  1 e 2 0 ]
+{
+"6
+[v i2memset@s s `*.39uc  1 a 2 10 ]
+"7
+[v i2memset@k k `ui  1 a 2 8 ]
+"4
+[v i2memset@dest dest `*.39v  1 p 2 0 ]
+[v i2memset@c c `i  1 p 2 2 ]
+[v i2memset@n n `ui  1 p 2 4 ]
+"90
+} 0
+"2133 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_SPI.X/mcc_generated_files/usb/usb_device.c
+[v _USBStdGetStatusHandler USBStdGetStatusHandler `(v  1 s 1 USBStdGetStatusHandler ]
+{
+[s S1248 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"2165
+[s S1257 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S1264 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S1268 _BD_STAT 1 `uc 1 Val 1 0 `S1248 1 . 1 0 `S1257 1 . 1 0 `S1264 1 . 1 0 ]
+[s S1273 . 4 `S1268 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S1278 . 4 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`us 1 ADR 2 2 ]
+[u S1282 __BDT 4 `S1273 1 . 4 0 `S1278 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBStdGetStatusHandler@p p `*.39S1282  1 a 2 2 ]
+"2188
+} 0
+"2047
+[v _USBStdGetDscHandler USBStdGetDscHandler `(v  1 s 1 USBStdGetDscHandler ]
+{
+"2116
+} 0
+"2758
+[v _USBStdFeatureReqHandler USBStdFeatureReqHandler `(v  1 s 1 USBStdFeatureReqHandler ]
+{
+[s S1248 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"2760
+[s S1257 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S1264 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S1268 _BD_STAT 1 `uc 1 Val 1 0 `S1248 1 . 1 0 `S1257 1 . 1 0 `S1264 1 . 1 0 ]
+[s S1273 . 4 `S1268 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S1278 . 4 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`us 1 ADR 2 2 ]
+[u S1282 __BDT 4 `S1273 1 . 4 0 `S1278 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBStdFeatureReqHandler@p p `*.39S1282  1 a 2 25 ]
+"2765
+[v USBStdFeatureReqHandler@pUEP pUEP `*.39uc  1 a 2 22 ]
+[s S1678 . 1 `uc 1 ping_pong_state 1 0 :1:0 
+`uc 1 transfer_terminated 1 0 :1:1 
+]
+"2761
+[u S1681 . 1 `S1678 1 bits 1 0 `uc 1 Val 1 0 ]
+[v USBStdFeatureReqHandler@current_ep_data current_ep_data `S1681  1 a 1 24 ]
+"2984
+} 0
+"49 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_SPI.X/mcc_generated_files/usb/usb_device_events.c
+[v _USER_USB_CALLBACK_EVENT_HANDLER USER_USB_CALLBACK_EVENT_HANDLER `(a  1 e 1 0 ]
+{
+[v USER_USB_CALLBACK_EVENT_HANDLER@event event `E46  1 p 2 12 ]
+[v USER_USB_CALLBACK_EVENT_HANDLER@pdata pdata `*.39v  1 p 2 14 ]
+[v USER_USB_CALLBACK_EVENT_HANDLER@size size `us  1 p 2 16 ]
+"98
+} 0
+"147 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_SPI.X/mcc_generated_files/usb/usb_device_cdc.c
+[v _USBCheckCDCRequest USBCheckCDCRequest `(v  1 e 1 0 ]
+{
+"260
+} 0
+"294
+[v _CDCInitEP CDCInitEP `(v  1 e 1 0 ]
+{
+"347
+} 0
+"999 /Users/john/Library/Mobile Documents/com~apple~CloudDocs/Fiverr/Microchip Dev Board/PIC18F45K50_SPI.X/mcc_generated_files/usb/usb_device.c
+[v i2_USBTransferOnePacket USBTransferOnePacket `(*.39v  1 e 2 0 ]
+{
+[v i2USBTransferOnePacket@ep ep `uc  1 a 1 wreg ]
+[s S1248 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"1001
+[s S1257 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S1264 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S1268 _BD_STAT 1 `uc 1 Val 1 0 `S1248 1 . 1 0 `S1257 1 . 1 0 `S1264 1 . 1 0 ]
+[s S1273 . 4 `S1268 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S1278 . 4 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`us 1 ADR 2 2 ]
+[u S1282 __BDT 4 `S1273 1 . 4 0 `S1278 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v i2USBTransferOnePacket@handle handle `*.39VES1282  1 a 2 9 ]
+"999
+[v i2USBTransferOnePacket@ep ep `uc  1 a 1 wreg ]
+[v i2USBTransferOnePacket@dir dir `uc  1 p 1 0 ]
+[v i2USBTransferOnePacket@data data `*.39uc  1 p 2 1 ]
+[v i2USBTransferOnePacket@len len `uc  1 p 1 3 ]
+"1004
+[v i2USBTransferOnePacket@ep ep `uc  1 a 1 8 ]
+"1051
+} 0
+"882
+[v _USBEnableEndpoint USBEnableEndpoint `(v  1 e 1 0 ]
+{
+[v USBEnableEndpoint@ep ep `uc  1 a 1 wreg ]
+"884
+[v USBEnableEndpoint@p p `*.39uc  1 a 2 9 ]
+"882
+[v USBEnableEndpoint@ep ep `uc  1 a 1 wreg ]
+[v USBEnableEndpoint@options options `uc  1 p 1 8 ]
+"888
+[v USBEnableEndpoint@ep ep `uc  1 a 1 11 ]
+"906
+} 0
+"1547
+[v _USBConfigureEndpoint USBConfigureEndpoint `(v  1 s 1 USBConfigureEndpoint ]
+{
+[v USBConfigureEndpoint@EPNum EPNum `uc  1 a 1 wreg ]
+[s S1248 . 1 `uc 1 BC8 1 0 :1:0 
+`uc 1 BC9 1 0 :1:1 
+`uc 1 BSTALL 1 0 :1:2 
+`uc 1 DTSEN 1 0 :1:3 
+`uc 1 INCDIS 1 0 :1:4 
+`uc 1 KEN 1 0 :1:5 
+`uc 1 DTS 1 0 :1:6 
+`uc 1 UOWN 1 0 :1:7 
+]
+"1549
+[s S1257 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID0 1 0 :1:2 
+`uc 1 PID1 1 0 :1:3 
+`uc 1 PID2 1 0 :1:4 
+`uc 1 PID3 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+]
+[s S1264 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 PID 1 0 :4:2 
+`uc 1 . 1 0 :2:6 
+]
+[u S1268 _BD_STAT 1 `uc 1 Val 1 0 `S1248 1 . 1 0 `S1257 1 . 1 0 `S1264 1 . 1 0 ]
+[s S1273 . 4 `S1268 1 STAT 1 0 `uc 1 CNT 1 1 `uc 1 ADRL 1 2 `uc 1 ADRH 1 3 ]
+[s S1278 . 4 `uc 1 . 1 0 :8:0 
+`uc 1 . 1 1 :8:0 
+`us 1 ADR 2 2 ]
+[u S1282 __BDT 4 `S1273 1 . 4 0 `S1278 1 . 4 0 `ul 1 Val 4 0 `[4]uc 1 v 4 0 ]
+[v USBConfigureEndpoint@handle handle `*.39VES1282  1 a 2 6 ]
+"1547
+[v USBConfigureEndpoint@EPNum EPNum `uc  1 a 1 wreg ]
+[v USBConfigureEndpoint@direction direction `uc  1 p 1 0 ]
+"1553
+[v USBConfigureEndpoint@EPNum EPNum `uc  1 a 1 5 ]
+"1589
+} 0
+"2542
+[v _USBCtrlTrfOutHandler USBCtrlTrfOutHandler `(v  1 s 1 USBCtrlTrfOutHandler ]
+{
+"2571
+} 0
+"1856
+[v _USBCtrlTrfRxService USBCtrlTrfRxService `(v  1 s 1 USBCtrlTrfRxService ]
+{
+"1858
+[v USBCtrlTrfRxService@byteToRead byteToRead `uc  1 a 1 1 ]
+"1859
+[v USBCtrlTrfRxService@i i `uc  1 a 1 0 ]
+"1951
+} 0
+"1420
+[v _USBCtrlEPAllowStatusStage USBCtrlEPAllowStatusStage `(v  1 e 1 0 ]
+{
+"1463
+} 0
+"2596
+[v _USBCtrlTrfInHandler USBCtrlTrfInHandler `(v  1 s 1 USBCtrlTrfInHandler ]
+{
+"2598
+[v USBCtrlTrfInHandler@lastDTS lastDTS `uc  1 a 1 1 ]
+"2671
+} 0
+"1775
+[v _USBCtrlTrfTxService USBCtrlTrfTxService `(v  1 s 1 USBCtrlTrfTxService ]
+{
+"1777
+[v USBCtrlTrfTxService@byteToSend byteToSend `uc  1 a 1 0 ]
+"1829
+} 0

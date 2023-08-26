@@ -1,0 +1,124 @@
+Version 4.0 HI-TECH Software Intermediate Code
+[v F382 `(v ~T0 @X0 0 tf ]
+[v F384 `(a ~T0 @X0 0 tf ]
+[v F386 `(uc ~T0 @X0 0 tf1`uc ]
+[v F389 `(v ~T0 @X0 0 tf2`*v`ui ]
+[v F393 `(v ~T0 @X0 0 tf2`*v`ui ]
+[v F397 `(v ~T0 @X0 0 tf2`*v`ui ]
+[v F401 `(v ~T0 @X0 0 tf1`uc ]
+[v F404 `(uc ~T0 @X0 0 tf ]
+[v F407 `(v ~T0 @X0 0 tf ]
+[v F406 `(v ~T0 @X0 0 tf1`*F407 ]
+[v F410 `(v ~T0 @X0 0 tf ]
+"53 mcc_generated_files/drivers/spi_master.h
+[; ;mcc_generated_files/drivers/spi_master.h: 53: typedef struct { void (*spiClose)(void);
+[s S3 `*F382 1 `*F384 1 `*F386 1 `*F389 1 `*F393 1 `*F397 1 `*F401 1 `*F404 1 `*F406 1 `*F410 1 ]
+[n S3 . spiClose spiOpen exchangeByte exchangeBlock writeBlock readBlock writeByte readByte setSpiISR spiISR ]
+"66 mcc_generated_files/drivers/../spi1.h
+[; ;mcc_generated_files/drivers/../spi1.h: 66: void SPI1_Close(void);
+[v _SPI1_Close `(v ~T0 @X0 0 ef ]
+"35 mcc_generated_files/drivers/spi_master.c
+[; ;mcc_generated_files/drivers/spi_master.c: 35: _Bool MASTER0_open(void);
+[v _MASTER0_open `(a ~T0 @X0 0 ef ]
+"67 mcc_generated_files/drivers/../spi1.h
+[; ;mcc_generated_files/drivers/../spi1.h: 67: uint8_t SPI1_ExchangeByte(uint8_t data);
+[v _SPI1_ExchangeByte `(uc ~T0 @X0 0 ef1`uc ]
+"68
+[; ;mcc_generated_files/drivers/../spi1.h: 68: void SPI1_ExchangeBlock(void *block, size_t blockSize);
+[v _SPI1_ExchangeBlock `(v ~T0 @X0 0 ef2`*v`ui ]
+"69
+[; ;mcc_generated_files/drivers/../spi1.h: 69: void SPI1_WriteBlock(void *block, size_t blockSize);
+[v _SPI1_WriteBlock `(v ~T0 @X0 0 ef2`*v`ui ]
+"70
+[; ;mcc_generated_files/drivers/../spi1.h: 70: void SPI1_ReadBlock(void *block, size_t blockSize);
+[v _SPI1_ReadBlock `(v ~T0 @X0 0 ef2`*v`ui ]
+"71
+[; ;mcc_generated_files/drivers/../spi1.h: 71: void SPI1_WriteByte(uint8_t byte);
+[v _SPI1_WriteByte `(v ~T0 @X0 0 ef1`uc ]
+"72
+[; ;mcc_generated_files/drivers/../spi1.h: 72: uint8_t SPI1_ReadByte(void);
+[v _SPI1_ReadByte `(uc ~T0 @X0 0 ef ]
+[v F434 `(v ~T0 @X0 0 tf ]
+[v F433 `(v ~T0 @X0 0 tf1`*F434 ]
+[v F436 `(v ~T0 @X0 0 tf ]
+"42 mcc_generated_files/drivers/spi_master.c
+[; ;mcc_generated_files/drivers/spi_master.c: 42:     return SPI1_Open(MASTER0_CONFIG);
+[c E355 0 1 .. ]
+[n E355 . MASTER0_CONFIG SPI1_DEFAULT  ]
+"65 mcc_generated_files/drivers/../spi1.h
+[; ;mcc_generated_files/drivers/../spi1.h: 65: _Bool SPI1_Open(spi1_modes_t spi1UniqueConfiguration);
+[v _SPI1_Open `(a ~T0 @X0 0 ef1`E355 ]
+"56 mcc_generated_files/drivers/spi_master.c
+[; ;mcc_generated_files/drivers/spi_master.c: 56: _Bool spi_master_open(spi_master_configurations_t config){
+[c E377 0 .. ]
+[n E377 . MASTER0  ]
+"37 mcc_generated_files/drivers/spi_master.c
+[; ;mcc_generated_files/drivers/spi_master.c: 37: const spi_master_functions_t spiMaster[] = {
+[v _spiMaster `CS3 ~T0 @X0 -> -> 1 `i `ux e ]
+[i _spiMaster
+:U ..
+:U ..
+&U _SPI1_Close
+&U _MASTER0_open
+&U _SPI1_ExchangeByte
+&U _SPI1_ExchangeBlock
+&U _SPI1_WriteBlock
+&U _SPI1_ReadBlock
+&U _SPI1_WriteByte
+&U _SPI1_ReadByte
+-> -> -> 0 `i `*v `*F433
+-> -> -> 0 `i `*v `*F436
+..
+..
+]
+"41
+[; ;mcc_generated_files/drivers/spi_master.c: 41: _Bool MASTER0_open(void){
+[v _MASTER0_open `(a ~T0 @X0 1 ef ]
+{
+[e :U _MASTER0_open ]
+[f ]
+"42
+[; ;mcc_generated_files/drivers/spi_master.c: 42:     return SPI1_Open(MASTER0_CONFIG);
+[e ) ( _SPI1_Open (1 . `E355 0 ]
+[e $UE 4  ]
+"43
+[; ;mcc_generated_files/drivers/spi_master.c: 43: }
+[e :UE 4 ]
+}
+"56
+[; ;mcc_generated_files/drivers/spi_master.c: 56: _Bool spi_master_open(spi_master_configurations_t config){
+[v _spi_master_open `(a ~T0 @X0 1 ef1`E377 ]
+{
+[e :U _spi_master_open ]
+[v _config `E377 ~T0 @X0 1 r1 ]
+[f ]
+"57
+[; ;mcc_generated_files/drivers/spi_master.c: 57:     switch(config){
+[e $U 7  ]
+{
+"58
+[; ;mcc_generated_files/drivers/spi_master.c: 58:         case MASTER0:
+[e :U 8 ]
+"59
+[; ;mcc_generated_files/drivers/spi_master.c: 59:             return MASTER0_open();
+[e ) ( _MASTER0_open ..  ]
+[e $UE 5  ]
+"60
+[; ;mcc_generated_files/drivers/spi_master.c: 60:         default:
+[e :U 9 ]
+"61
+[; ;mcc_generated_files/drivers/spi_master.c: 61:             return 0;
+[e ) -> -> 0 `i `a ]
+[e $UE 5  ]
+"62
+[; ;mcc_generated_files/drivers/spi_master.c: 62:     }
+}
+[e $U 6  ]
+[e :U 7 ]
+[e [\ -> _config `ui , $ -> . `E377 0 `ui 8
+ 9 ]
+[e :U 6 ]
+"63
+[; ;mcc_generated_files/drivers/spi_master.c: 63: }
+[e :UE 5 ]
+}

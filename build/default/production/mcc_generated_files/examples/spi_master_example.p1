@@ -1,0 +1,100 @@
+Version 4.0 HI-TECH Software Intermediate Code
+"90 mcc_generated_files/examples/spi_master_example.c
+[; ;mcc_generated_files/examples/spi_master_example.c: 90:  if(!spi_master_open(MASTER0))
+[c E544 0 .. ]
+[n E544 . MASTER0  ]
+"67 mcc_generated_files/examples/../drivers/spi_master.h
+[; ;mcc_generated_files/examples/../drivers/spi_master.h: 67: _Bool spi_master_open(spi_master_configurations_t config);
+[v _spi_master_open `(a ~T0 @X0 0 ef1`E544 ]
+"68 mcc_generated_files/examples/../drivers/../spi1.h
+[; ;mcc_generated_files/examples/../drivers/../spi1.h: 68: void SPI1_ExchangeBlock(void *block, size_t blockSize);
+[v _SPI1_ExchangeBlock `(v ~T0 @X0 0 ef2`*v`ui ]
+"66
+[; ;mcc_generated_files/examples/../drivers/../spi1.h: 66: void SPI1_Close(void);
+[v _SPI1_Close `(v ~T0 @X0 0 ef ]
+"40 /Applications/microchip/xc8/v2.35/pic/include/c99/string.h
+[; ;/Applications/microchip/xc8/v2.35/pic/include/c99/string.h: 40: int strncmp (const char *, const char *, size_t);
+[v _strncmp `(i ~T0 @X0 0 ef3`*Cuc`*Cuc`ui ]
+"54
+[; ;/Applications/microchip/xc8/v2.35/pic/include/c99/string.h: 54: size_t strlen (const char *);
+[v _strlen `(ui ~T0 @X0 0 ef1`*Cuc ]
+"49 mcc_generated_files/examples/spi_master_example.c
+[; ;mcc_generated_files/examples/spi_master_example.c: 49: static uint8_t buffer[16] = "data";
+[v _buffer `uc ~T0 @X0 -> 16 `i s ]
+[i _buffer
+:U ..
+-> 100 `c
+-> 97 `c
+-> 116 `c
+-> 97 `c
+-> 0 `c
+..
+]
+"62
+[; ;mcc_generated_files/examples/spi_master_example.c: 62: static void drive_slave_select_low(){
+[v _drive_slave_select_low `(v ~T0 @X0 1 sf ]
+{
+[e :U _drive_slave_select_low ]
+[f ]
+"64
+[; ;mcc_generated_files/examples/spi_master_example.c: 64: }
+[e :UE 5 ]
+}
+"74
+[; ;mcc_generated_files/examples/spi_master_example.c: 74: static void drive_slave_select_high(){
+[v _drive_slave_select_high `(v ~T0 @X0 1 sf ]
+{
+[e :U _drive_slave_select_high ]
+[f ]
+"76
+[; ;mcc_generated_files/examples/spi_master_example.c: 76: }
+[e :UE 6 ]
+}
+"86
+[; ;mcc_generated_files/examples/spi_master_example.c: 86: uint8_t SPI_Master_test(void)
+[v _SPI_Master_test `(uc ~T0 @X0 1 ef ]
+"87
+[; ;mcc_generated_files/examples/spi_master_example.c: 87: {
+{
+[e :U _SPI_Master_test ]
+[f ]
+"90
+[; ;mcc_generated_files/examples/spi_master_example.c: 90:  if(!spi_master_open(MASTER0))
+[e $ ! ! != -> ( _spi_master_open (1 . `E544 0 `i -> 0 `i 8  ]
+"93
+[; ;mcc_generated_files/examples/spi_master_example.c: 93:   return 0;
+[e ) -> -> 0 `i `uc ]
+[e $UE 7  ]
+[e :U 8 ]
+"95
+[; ;mcc_generated_files/examples/spi_master_example.c: 95:  drive_slave_select_low();
+[e ( _drive_slave_select_low ..  ]
+"96
+[; ;mcc_generated_files/examples/spi_master_example.c: 96:  SPI1_ExchangeBlock(buffer, sizeof(buffer));
+[e ( _SPI1_ExchangeBlock (2 , -> &U _buffer `*v -> # _buffer `ui ]
+"98
+[; ;mcc_generated_files/examples/spi_master_example.c: 98:     drive_slave_select_high();
+[e ( _drive_slave_select_high ..  ]
+"100
+[; ;mcc_generated_files/examples/spi_master_example.c: 100:     SPI1_Close();
+[e ( _SPI1_Close ..  ]
+"103
+[; ;mcc_generated_files/examples/spi_master_example.c: 103:  if (strncmp((char*)buffer, "data", strlen("data")))
+[e $ ! != ( _strncmp (3 , , -> -> &U _buffer `*uc `*Cuc :s 3C ( _strlen (1 :s 4C -> 0 `i 9  ]
+"104
+[; ;mcc_generated_files/examples/spi_master_example.c: 104:   return 0;
+[e ) -> -> 0 `i `uc ]
+[e $UE 7  ]
+[e :U 9 ]
+"107
+[; ;mcc_generated_files/examples/spi_master_example.c: 107:  return 1;
+[e ) -> -> 1 `i `uc ]
+[e $UE 7  ]
+"108
+[; ;mcc_generated_files/examples/spi_master_example.c: 108: }
+[e :UE 7 ]
+}
+[a 1C 100 97 116 97 0 ]
+[a 2C 100 97 116 97 0 ]
+[a 3C 100 97 116 97 0 ]
+[a 4C 100 97 116 97 0 ]
